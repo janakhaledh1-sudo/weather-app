@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Weather App</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Weather App 🌦️</h1>
+
+    <div class="search-box">
+
+      <input type="text" id="cityInput"
+      placeholder="Enter city name">
+
+      <button id="searchBtn">Search</button>
+
+    </div>
+
+    <div class="weather-card">
+
+      <h2 id="cityName">City</h2>
+
+      <h1 id="temperature">--°C</h1>
+
+      <p id="description">Weather Condition</p>
+
+      <div class="details">
+
+        <div class="box">
+          <h3>Wind</h3>
+          <p id="wind">-- km/h</p>
+        </div>
+
+        <div class="box">
+          <h3>Time</h3>
+          <p id="time">--</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <p id="error"></p>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
